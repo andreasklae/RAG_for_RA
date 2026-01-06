@@ -85,9 +85,9 @@ def _build_prompt(question: str, contexts: list[str], sources: list[str]) -> str
     src_blob = "\n".join(sources)
     return (
         "You are a careful cultural heritage guide.\n"
-        "Answer in Norwegian.\n"
+        "Answer in English.\n"
         "Use ONLY the CONTEXT below. If the context is insufficient, say so and ask a follow-up question.\n"
-        "Always include a 'Kilder:' section listing the SOURCE_URLs you used.\n\n"
+        "Always include a 'Sources:' section listing the SOURCE_URLs you used.\n\n"
         f"SPØRSMÅL:\n{question}\n\n"
         f"CONTEXT:\n{context_blob}\n\n"
         f"AVAILABLE_SOURCES:\n{src_blob}\n"
