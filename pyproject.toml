@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-for-ra"
+version = "0.1.0"
+description = "Read-only chat CLI for an OpenAI Vector Store (Riksantikvaren RAG)"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rag_for_ra*"]
+
+

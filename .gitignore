@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+
+# Local state (created by the chat CLI to remember Vector Store ID)
+.rag_state.json
+
+# Logs / outputs (optional)
+artifacts/
+
+
