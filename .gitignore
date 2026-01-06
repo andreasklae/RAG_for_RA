@@ -12,6 +12,11 @@ venv/
 # Local state (created by the chat CLI to remember Vector Store ID)
 .rag_state.json
 
+# Local environment (never commit secrets)
+.env
+.env.*
+local.env
+
 # Logs / outputs (optional)
 artifacts/
 
